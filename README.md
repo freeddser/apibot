@@ -16,7 +16,7 @@
 
 ### example
     response:
-        [url]--->http://127.0.0.1:8080/
+        [url]--->http://127.0.0.1:6666/
         [method]--->POST
         [Content-Type]--->application/x-www-form-urlencoded
         [json]--->None
@@ -24,7 +24,7 @@
         [form]-->ImmutableMultiDict([('k1k', 'abc')])
         
     response:
-        [url]--->http://127.0.0.1:8080/
+        [url]--->http://127.0.0.1:6666/
         [method]--->POST
         [Content-Type]--->application/x-www-form-urlencoded
         [json]--->None
