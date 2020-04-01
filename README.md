@@ -3,7 +3,7 @@
 ### API tools, support post/get
 
 ### get source code
-    git clone git@github.com:freeddser/apibot.git
+    git clone https://github.com/freeddser/apibot.git
 
 
 
