@@ -21,7 +21,7 @@ steps:
 - task: CopyFilesOverSSH@0
   inputs:
     sshEndpoint: 'yq-vm'
-    sourceFolder: '/'
+    sourceFolder: '$(Agent.BuildDirectory)'
     contents: '**'
     targetFolder: '/tmp'
     readyTimeout: '20000'
